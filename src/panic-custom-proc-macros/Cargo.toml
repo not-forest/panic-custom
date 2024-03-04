@@ -1,0 +1,21 @@
+[package]
+name = "panic-custom-proc-macros"
+version = "0.1.0"
+authors = ["notforest <notforest69@gmail.com>"]
+description = "Small panicking macro crate that allows to easily set the behavior of panicking for embedded or regular no_std binaries."
+license = "MIT OR Apache-2.0"
+edition = "2021"
+
+[features]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "1.0", features = ["full"] }
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
