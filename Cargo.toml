@@ -1,6 +1,6 @@
 [package]
 name = "panic-custom"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["notforest <notforest69@gmail.com>"]
 description = "Small panicking rust crate that allows to easily set the behavior of panicking for embedded or regular no_std binaries."
 repository = "https://github.com/not-forest/panic-custom"
