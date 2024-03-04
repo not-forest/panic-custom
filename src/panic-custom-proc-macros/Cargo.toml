@@ -3,8 +3,12 @@ name = "panic-custom-proc-macros"
 version = "0.1.0"
 authors = ["notforest <notforest69@gmail.com>"]
 description = "Small panicking macro crate that allows to easily set the behavior of panicking for embedded or regular no_std binaries."
+repository = "https://github.com/not-forest/panic-custom"
 license = "MIT OR Apache-2.0"
 edition = "2021"
+
+keywords   = ["panic", "panicking", "halt", "abort", "custom", "custom panic"]
+categories = ["panic", "embedded", "no-std"]
 
 [features]
 
