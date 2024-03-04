@@ -7,7 +7,7 @@ repository = "https://github.com/not-forest/panic-custom"
 license = "MIT OR Apache-2.0"
 edition = "2021"
 
-keywords   = ["panic", "panicking", "halt", "abort", "custom", "custom panic"]
+keywords   = ["panic", "panicking", "macro", "custom"]
 categories = ["panic", "embedded", "no-std"]
 
 [features]
