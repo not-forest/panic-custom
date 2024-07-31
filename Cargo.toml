@@ -1,7 +1,7 @@
 [package]
 name = "panic-custom"
 version = "0.1.1"
-authors = ["notforest <notforest69@gmail.com>"]
+authors = ["notforest <sshkliaiev@gmail.com>"]
 description = "Small panicking rust crate that allows to easily set the behavior of panicking for embedded or regular no_std binaries."
 repository = "https://github.com/not-forest/panic-custom"
 license = "MIT OR Apache-2.0"
